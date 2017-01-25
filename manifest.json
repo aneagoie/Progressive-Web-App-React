@@ -1,0 +1,20 @@
+{
+    "short_name": "PWAR",
+    "name": "Progressive Web App React",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#9EEBCF",
+    "background_color": "#9EEBCF",
+    "start_url": "/index.html",
+    "display": "standalone"
+}
