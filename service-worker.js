@@ -252,8 +252,6 @@ self.addEventListener('fetch', function(event) {
 
 // Runtime cache configuration, using the sw-toolbox library.
 
-toolbox.router.get(/^https:\/\/jsonplaceholder\.typicode\.com/, toolbox.networkFirst, {});
-toolbox.router.get(/\/users\//, toolbox.fastest, {"cache":{"maxEntries":10,"name":"users-cache"}});
 toolbox.router.get(/^https:\/\/robohash\.org/, toolbox.networkFirst, {});
 toolbox.router.get(/\/5\//, toolbox.fastest, {"cache":{"maxEntries":10,"name":"robo-cache"}});
 
