@@ -1,6 +1,6 @@
 {
-    "short_name": "Progressive-Web-App-React",
-    "name": "Progressive Web App React",
+    "short_name": "RoboDex",
+    "name": "RoboDex",
     "icons": [
         {
             "src": "./android-chrome-192x192.png",
